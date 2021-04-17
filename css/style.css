@@ -10,6 +10,8 @@ body{
 .part1{
     background: url("/img/pexels-roman-odintsov-4871011.jpg") no-repeat ;
     background-size: cover;
+    -webkit-box-shadow: 0px 17px 53px 36px #000000; 
+    box-shadow: 0px 17px 53px 36px #000000;
 }
 
 .header img{
@@ -79,7 +81,7 @@ a:hover{
 
 .services h1{
     font-size: 6rem;
-    color: rgb(4, 89, 158);
+    color: black;
 }
 
 .item{
@@ -122,6 +124,10 @@ a:hover{
     padding: 30px;
     color: azure;
 }
+.k2{
+    display: flex;
+    margin-top: 25px;
+}
 .ficon,.g1,.g2,.follow{
     padding: 20px;
     margin: 0px 40px 0px 40px;
@@ -132,4 +138,18 @@ a:hover{
 }
 .k a{
     color: azure;
+}
+.follow{
+    font-size: 25px;
+    text-align: center;
+
+}
+.follow a{
+    font-size: 17px;
+}
+.copyr{
+    /* align-items: center; */
+    color: azure;
+    text-align: center;
+    padding: 15px;
 }
