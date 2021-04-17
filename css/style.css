@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("/img/background-2462431_1920.jpg") no-repeat ;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.header img{
+    height: 5rem;
+    width: 5rem;
+}
+#home img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.center{
+    margin: 10vh;
+    font-size: 4rem;
+}
+
+.text2{
+    margin: 5vh;
+    font-size: 2rem;
+}
+
+.donate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 800;
+}
+
+a:hover{
+    color: blanchedalmond;
+}
+
+.hright{
+    position:fixed;
+    right: 0;
+}
+
+.midh a:hover{
+    color: rgb(238, 217, 217);
+}
