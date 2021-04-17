@@ -4,11 +4,13 @@
 }
 
 body{
-    background: url("https://sahilbansalweb.github.io/DonateToHelp/img/background-2462431_1920.jpg") no-repeat ;
-    background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.part1{
+    background: url("/img/pexels-roman-odintsov-4871011.jpg") no-repeat ;
+    background-size: cover;
+}
 
 .header img{
     height: 5rem;
@@ -19,7 +21,7 @@ body{
     width: 2.5rem;
 }
 .center{
-    margin: 10vh;
+    margin: 15vh;
     font-size: 4rem;
 }
 
@@ -48,9 +50,86 @@ a:hover{
 
 .hright{
     position:fixed;
+    z-index: 10;
     right: 0;
 }
 
 .midh a:hover{
     color: rgb(238, 217, 217);
+}
+.wcenter{
+    padding-bottom: 140px;
+}
+
+.part2{
+    background: url("/img/pexels-mikhail-nilov-7473992.jpg") no-repeat;
+    background-size: cover;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    overflow: hidden;
+    padding-top: 2rem;
+}
+
+.services h1{
+    font-size: 6rem;
+    color: rgb(4, 89, 158);
+}
+
+.item{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    margin-top: 5px;
+    /* width: 100vw; */
+}
+
+.it{
+    margin: 10px 50px 10px 50px;
+    width: 700px;
+
+}
+
+.it:hover{
+    cursor: pointer;
+}
+
+.lline{
+    margin-top: 30px;
+    font-size: 3rem;
+    font-family: 'Palanquin Dark', sans-serif;
+    padding: 6rem;
+    color: blanchedalmond;
+}
+
+.part3{
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.k{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    color: azure;
+}
+.ficon,.g1,.g2,.follow{
+    padding: 20px;
+    margin: 0px 40px 0px 40px;
+}
+.g3{
+    font-weight: 900;
+    font-size: 18px;
+}
+.k a{
+    color: azure;
 }

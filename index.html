@@ -11,79 +11,150 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans:wght@500&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>DTH - DonateToHelp - "Help as you can and by any way"</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./img/icons8-charity-96.png">
+    <link rel="icon" href="./img/icons8-helping-hand-48.png">
 </head>
 
 <body>
+    <div class="part1">
+        <div class="header p-4 d-inline-flex justify-content-between w-100 align-items-center">
+            <div id="home" class="d-inline-flex align-items-center  ">
+                <a href="#"><img id="hom" src="./img/icons8-home-page-64.png"></a>
+                <a href="#">Home</a>
+            </div>
+            <div class="midh d-inline-flex align-items-center">
+                <a href="#"><img src="./img/icons8-helping-hand-48.png"></a>
+                <div class="ms-3 fs-2" id="title">
+                    <a href="#">DTH - DonateToHelp</a>
+                </div>
+            </div>
+            <div>
 
-    <div class="header p-4 d-inline-flex justify-content-between w-100 align-items-center">
-        <div id="home" class="d-inline-flex align-items-center  ">
-            <a href="#"><img id="hom" src="./img/icons8-home-128.png"></a>
-            <a href="#">Home</a>
+            </div>
+            <nav id="navbar-example2" class="navbar  px-3 hright">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">@Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">@Services</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+                <h4 id="home">@fat</h4>
+                <h4 id="mdo">@mdo</h4>
+            </div> -->
         </div>
-        <div class="midh d-inline-flex align-items-center">
-            <a href="#"><img src="./img/icons8-charity-96.png"></a>
-            <div class="ms-3 fs-2" id="title">
-                <a href="#">DTH - DonateToHelp</a>
+
+        <div class="wcenter">
+            <div class="center text-xl-center font-monospace fw-bold">
+                Giving is the greatest act of grace.
+            </div>
+
+            <form class="donate">
+                <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                    data-payment_button_id="pl_GyidnVzHVPF4zu" async> </script>
+            </form>
+            <div class="text2 text-center font-monospace fw-bold">
+                Small Actions * Lots of Peoples = Big Change
             </div>
         </div>
-        <div>
-             
-        </div>
-        <nav id="navbar-example2" class="navbar  px-3 hright">
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">@Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">@Services</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
-            <h4 id="home">@fat</h4>
-            <h4 id="mdo">@mdo</h4>
-        </div> -->
     </div>
 
-    <div class="wcenter">
-        <div class="center text-xl-center font-monospace fw-bold">
-            Giving is the greatest act of grace.
-        </div>
-    
-        <form class="donate">
-            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GyidnVzHVPF4zu"
-                async> </script>
-        </form>
-        <div class="text2 text-center font-monospace fw-bold">
-            Small Actions * Lots of Peoples = Big Change
+
+    <div class="part2">
+        <div class="services" id="services">
+            <h1>Services</h1>
+            <div class="item">
+                <div class="card it" style="width: 18rem;">
+                    <img src="https://media.istockphoto.com/photos/donate-food-to-hungry-people-concept-of-poverty-and-hunger-picture-id1060352206?k=6&m=1060352206&s=612x612&w=0&h=pcoG1CDsdjPgklMPqnBcEKKxbnvTl1YXkP7s9TxRk-M="
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Food Services - Provides Food to needy peoples.</p>
+                    </div>
+                </div>
+                <div class="card it" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1596383924439-4d410af270f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvbWVsZXNzJTIwc2hlbHRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Shelter Services - Arranging shelter for homeless animals and peoples.</p>
+                    </div>
+                </div>
+                <div class="card it" style="width: 18rem;">
+                    <img src="https://wallpapercave.com/wp/ThAOKju.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Medical Services - Arranging Blood, any Body part, medicines, etc. to save
+                            someones life.
+                        </p>
+                    </div>
+                </div>
+                <div class="card it" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1584483766114-2cea6facdf57?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dmlydXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Help During Covid - Help to find a Plasma Donor for a needy one.</p>
+                    </div>
+                </div>
+                <div class="card it" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1555880575-9d51c3e12276?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cXVvdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Making Good Thoughts - Promoting people to think positive, Women
+                            Empowerment.</p>
+                    </div>
+                </div>
+                <div class="card it" style="width: 18rem;">
+                    <img src="https://wallpaperaccess.com/full/4500668.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">And much more like to make jobless to get job, etc.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="lline">
+                <div class="lline1">We are always ready to help anyone in need so donate and support us.</div>
+                <div class="lline2">Share this as you can because this would also help anyone.</div>
+            </div>
         </div>
     </div>
 
-    <div class="services">
-            
+    <div class="part3">
+        <div class="k">
+            <div class="ficon">
+                <a href="#home"><img src="./img/icons8-helping-hand-48.png"></a>
+                <a href="#home">DTH - DonateToHelp</a>
+                <div>We create possibilties for the connected world.</div>
+                <div class="g3">Be Bold.</div>
+            </div>
+
+            <div class="g1">Visit :-
+                <div>Huda Chowk, Gurugram</div>
+                <div>India - 122001</div>
+            </div>
+
+            <div class="g2">Contact us :-<div><link href="sahilbansal1233@gmail.com">sahilbansal1233@gmail.com</div>
+                <div>768 00X XXXX</div>
+            </div>
+
+
+            <div class="follow">
+                <a href="https://www.instagram.com/sahil.bansal.8245/?hl=en" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=100017838391011" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+                <a href="https://twitter.com/SahilBa02175575" target="_blank" ><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+                <a href="https://www.linkedin.com/in/sahil-bansal-90807a183/" target="_blank" ><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+                <a href="https://github.com/sahilbansalweb" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+            </div>
+        </div>
+        <div class="copyr">@2021 Sahil Bansal. All rights Reserved.</div>
     </div>
 
-<!-- 
-    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="#home">@fat</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#mdo">@mdo</a>
-            </li>
-        </ul>
-    </nav>
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
-        <h4 id="home">@fat</h4>
-        <p><a href="#">Home</a></p>
-        <h4 id="mdo">@mdo</h4>
-        <p>...</p>
-    </div> -->
+
 
 
     <!-- Optional JavaScript; choose one of the two! -->
