@@ -10,8 +10,32 @@ body{
 .part1{
     background: url("/img/pexels-roman-odintsov-4871011.jpg") no-repeat ;
     background-size: cover;
-    -webkit-box-shadow: 0px 17px 53px 36px #000000; 
-    box-shadow: 0px 17px 53px 36px #000000;
+}
+
+.donatepage{
+    display:block;
+    /* align-items: center; */
+    /* justify-content: center; */
+     text-align: center;
+    /* background: skyblue; */
+    /* width: 17vw; */
+   /* margin: auto;
+    height: 48px; 
+    border: 2px solid black;
+    border-radius: 5px; */
+}
+.donatepage button{
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: skyblue;
+    font-size: 18px;
+}
+.donatepage button:hover{
+    background: snow;
+}
+.donatepage a:hover{
+    color: black;
 }
 
 .header img{
@@ -36,8 +60,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
 
 a{
     text-decoration: none;
@@ -109,11 +133,11 @@ a:hover{
     font-size: 3rem;
     font-family: 'Palanquin Dark', sans-serif;
     padding: 6rem;
-    color: blanchedalmond;
+    color: white;
 }
 
 .part3{
-    background: black;
+    background: #1e1e1e;
     display: flex;
     flex-direction: column;
 }
@@ -137,7 +161,7 @@ a:hover{
     font-size: 18px;
 }
 .k a{
-    color: azure;
+    color: white;
 }
 .follow{
     font-size: 25px;
@@ -149,7 +173,11 @@ a:hover{
 }
 .copyr{
     /* align-items: center; */
-    color: azure;
+    color: white;
     text-align: center;
     padding: 15px;
+}
+
+.spaced{
+    height: 3rem;
 }
