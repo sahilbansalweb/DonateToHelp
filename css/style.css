@@ -181,3 +181,25 @@ a:hover{
 .spaced{
     height: 3rem;
 }
+
+@media (max-width:450px){
+    .hright{
+        display: none;
+    }
+    .k2{
+        display: none;
+    }
+    .follow{
+        font-size: 20px;
+    }
+    .center{
+        font-size: 2rem;
+        text-align: center;
+    }
+    #home{
+        display: none;
+    }
+    .hmidh{
+        font-size: 14px;
+    }
+}
