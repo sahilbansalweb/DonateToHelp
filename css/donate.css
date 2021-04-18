@@ -56,8 +56,10 @@
     position:fixed;
     z-index: -1;
     opacity: 0.8;
+    /* width:100%;
+    height: auto; */
 }
-@media (min-aspect-ratio: 16/9) {
+ @media (min-aspect-ratio: 16/9) {
     #videoBG {
         width:100%;
         height: auto;
@@ -68,7 +70,7 @@
         width:auto;
         height: 100%;
     }
-}
+}/*
 @media (max-width: 767px) {
     #videoBG {
         display: none;
@@ -76,5 +78,19 @@
     body {
         background: url('poster.jpg');
         background-size: cover;
+    }
+} */
+
+@media (max-width:450px){
+    .hd1{
+        font-size: 30px;
+    }
+    .hd2{
+        font-size: 15px;
+    }
+    .main{
+        margin-top: 22vh;
+        justify-content:end;
+        /* align-items: baseline; */
     }
 }

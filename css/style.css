@@ -194,6 +194,7 @@ a:hover{
     }
     .follow{
         font-size: 20px;
+        align-items: center;
     }
     .center{
         font-size: 2rem;
